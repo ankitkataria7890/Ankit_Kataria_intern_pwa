@@ -1,7 +1,7 @@
 <?php 
 include 'database.php' ;
 
-$content="SELECT * FROM img ORDER BY id DESC LIMIT 50";
+$content="SELECT * FROM chefaura ORDER BY id DESC LIMIT 50";
 $content_q=mysqli_query($con,$content);
 $content_r=mysqli_num_rows($content_q);
 
