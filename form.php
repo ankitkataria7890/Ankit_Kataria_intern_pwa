@@ -396,7 +396,7 @@ function next(){
 // to go back
 
 function back(){
-	window.history.back(1);
+	window.location.replace("index.php");
 }
 
 function fback(){
