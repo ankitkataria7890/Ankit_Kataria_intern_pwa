@@ -1,5 +1,5 @@
 <?php
-$host='sql12.freedatabase.com';
+$host='sql12.freesqldatabase.com';
 $dbuser='sql12358092';
 $dbpassword='DHAXcZJdM2';
 $dbname='sql12358092';
