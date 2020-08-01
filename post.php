@@ -1,14 +1,6 @@
 <?php
 if(isset($_POST['upload'])){
-$host='localhost';
-$dbuser='root';
-$dbpassword='';
-$dbname='image';
-$con=mysqli_connect($host,$dbuser,$dbpassword,$dbname);
-if(!$con){
-die("not connected");
-}
-
+include 'database.php';
 $title=$_POST['title'];
 $desc=$_POST['description'];
 
@@ -20,7 +12,7 @@ $img3 = image('img3');
 $img4 = image('img4');
 $img5 = image('img5');
 
-$sql = "INSERT INTO img (title,description,img1,img2,img3,img4,img5) VALUES ('$title','$desc','$img1','$img2','$img3','$img4','$img5')"; 
+$sql = "INSERT INTO chefaura (title,description,img1,img2,img3,img4,img5) VALUES ('$title','$desc','$img1','$img2','$img3','$img4','$img5')"; 
 $abc=mysqli_query($con,$sql);
 if($abc){
 	echo " <script>
