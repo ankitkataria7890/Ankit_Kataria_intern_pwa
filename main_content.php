@@ -1,6 +1,8 @@
 <?php 
 include 'database.php' ;
-
+echo '<script> 
+		console.log("connected to server");
+	</script>';
 $content="SELECT * FROM chefaura ORDER BY id DESC LIMIT 50";
 $content_q=mysqli_query($con,$content);
 $content_r=mysqli_num_rows($content_q);
@@ -8,7 +10,7 @@ $content_r=mysqli_num_rows($content_q);
 while($row=mysqli_fetch_array($content_q)){
 	
 	echo '<div class="title"><p>'.ucwords($row['title']).'</p></div>';
-	echo '<div class="image" style="background-image:url('logo1.jpg')">';
+	echo '<div class="image">';
 	if($row['img1']!=""){
 		echo "<img src='".$row['img1']."' loading='lazy'>";
 		//echo'<a class="carousel-item" href="#one!"><img src="'.$row["img1"].'"></a>';
