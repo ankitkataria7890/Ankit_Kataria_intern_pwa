@@ -35,7 +35,7 @@ function load(id,url) {
 		document.getElementById(id).innerHTML = this.responseText;
 	}
 	else {
-		document.getElementById(id).innerHTML = "<div><center>Loading...</center></div>";
+		//document.getElementById(id).innerHTML = "<div ><center>Loading...</center></div>";
 		console.log(this.status);
 		}
 	};
