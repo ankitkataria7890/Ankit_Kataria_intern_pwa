@@ -16,19 +16,19 @@ while($row=mysqli_fetch_array($content_q)){
 		//echo'<a class="carousel-item" href="#one!"><img src="'.$row["img1"].'"></a>';
 	}
 	if($row['img2']!=""){
-		echo "<img src='".$row['img2']."' alt='loading..'>";
+		echo "<img src='".$row['img2']."' >";
 		//echo'<a class="carousel-item" href="#one!"><img src="'.$row["img2"].'"></a>';
 	}
 	if($row['img3']!=""){
-		echo "<img src='".$row['img3']."' alt='loading..'>";
+		echo "<img src='".$row['img3']."' >";
 		//echo'<a class="carousel-item" href="#one!"><img src="'.$row["img3"].'"></a>';
 	}
 	if($row['img4']!=""){
-		echo "<img src='".$row['img4']."' alt='loading..'>";
+		echo "<img src='".$row['img4']."' >";
 		//echo'<a class="carousel-item" href="#one!"><img src="'.$row["img4"].'"></a>';
 	}
 	if($row['img5']!=""){
-		echo "<img src='".$row['img5']."' alt='loading..'>";
+		echo "<img src='".$row['img5']."'>";
 		//echo'<a class="carousel-item" href="#one!"><img src="'.$row["img5"].'"></a>';
 	}
 	//echo '<a class="prev" onclick="plusSlides(this)">&#10094;</a>';
