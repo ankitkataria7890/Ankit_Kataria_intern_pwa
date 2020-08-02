@@ -23,7 +23,7 @@
 				</div>
 			</div>
 		</div>
-	</dDOMContentLoaded	
+		
 	<div id="main">		
 	</div>
 </div>
@@ -35,7 +35,7 @@ function load(id,url) {
 		document.getElementById(id).innerHTML = this.responseText;
 	}
 	else {
-		//document.getElementById(id).innerHTML = "Loading...";
+		document.getElementById(id).innerHTML = "Loading...";
 		console.log(this.status);
 		}
 	};
