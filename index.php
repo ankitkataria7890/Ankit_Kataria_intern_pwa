@@ -34,12 +34,9 @@ function load(id,url) {
 	xhttp.onreadystatechange = function() {
 	if (this.readyState == 4 && this.status == 200) {
 		document.getElementById(id).innerHTML = this.responseText;
+	}
 	else {
 		document.getElementById(id).innerHTML = this."Loading...";
-		}
-		
-	}
-	else{
 		console.log(this.status);
 		}
 	};
