@@ -46,7 +46,7 @@ function load(id,url) {
 }
 
 //var timer = setInterval(load,5000);
-document.addEventListener("DOMContentLoaded", function(){
+document.addEventListener("load", function(){
 	load("main","main_content.php")
 });
 
