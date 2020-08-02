@@ -23,8 +23,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	
+	</dDOMContentLoaded	
 	<div id="main">		
 	</div>
 </div>
@@ -36,7 +35,7 @@ function load(id,url) {
 		document.getElementById(id).innerHTML = this.responseText;
 	}
 	else {
-		document.getElementById(id).innerHTML = "Loading...";
+		//document.getElementById(id).innerHTML = "Loading...";
 		console.log(this.status);
 		}
 	};
@@ -46,7 +45,7 @@ function load(id,url) {
 }
 
 //var timer = setInterval(load,5000);
-document.addEventListener("load", function(){
+document.addEventListener("DOMContentLoaded", function(){
 	load("main","main_content.php")
 });
 
