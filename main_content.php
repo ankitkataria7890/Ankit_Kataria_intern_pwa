@@ -34,7 +34,7 @@ while($row=mysqli_fetch_array($content_q)){
 	//echo '<a class="prev" onclick="plusSlides(this)">&#10094;</a>';
 	//echo '<a class="next" onclick="plusSlides(this)">&#10095;</a>';
  	echo '</div>';
-	echo '<div><button id="like" onclick="like(this)" style="color:yellow" ><i class="material-icons" style="font-size:2.3em;">favorite</i></button>'.' '.$row['like'].'</div>';
+	echo '<div><button id="like" onclick="like(this)" ><i class="material-icons" style="font-size:2.3em;">favorite</i></button>'.' '.$row['like'].'</div>';
 	if($row['description']){
 	echo '<div class="description"><p>'.$row['description'].'</p></div>';}	
 }
