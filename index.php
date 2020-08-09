@@ -52,7 +52,10 @@ document.addEventListener("DOMContentLoaded", function(){
 function form(){
 	window.location.replace("form.php");
 }
-
+ function like(param){
+  	param.style.color = "red";
+	param.innerHtml="hii";
+ }
 /*var imageIndex=1;
 function plusSlides(n) {
 	 showImage(imageIndex += n);
