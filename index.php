@@ -53,7 +53,15 @@ function form(){
 	window.location.replace("form.php");
 }
  function like(param){
-  	param.style.color = "rgb(191, 15, 24)";
+  	
+	 var x = window.getComputedStyle(param, null).getPropertyValue("color");
+	 if(x=="rgb(220, 220, 220)"){
+		param.style.color="rgb(191, 15, 24)";
+	 }
+	 else{
+		 param.style.color="rgb(220, 220, 220)";
+	 }
+
  }
 /*var imageIndex=1;
 function plusSlides(n) {
