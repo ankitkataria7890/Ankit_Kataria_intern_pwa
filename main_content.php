@@ -38,8 +38,8 @@ while($row=mysqli_fetch_array($content_q)){
 	if($row['description']){
 	echo '<div class="description"><p>'.$row['description'].'</p></div>';}	
 }
-	echo '<script> function like(param){
+	/*echo '<script> function like(param){
   				param.style.color = "red";}
-				</script>';
+				</script>';*/
 				
 ?>
