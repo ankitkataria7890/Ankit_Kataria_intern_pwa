@@ -10,7 +10,10 @@
 
 <body>
 	<?php
-	echo"hello";
+	echo"he";
+	$client = new MongoDB\Client('mongodb+srv://ankit7890:Qwerty7890@cluster0.yj0oa.mongodb.net/chefaura?retryWrites=true&w=majority');
+	$db = $client->chefaura;
+	echo" db connect";
 	?>
 	
 	
