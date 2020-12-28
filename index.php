@@ -9,7 +9,9 @@
 </head>
 
 <body>
-	
+	<?php
+	echo"hello";
+	?>
 	
 	
 <div id="top">
