@@ -10,9 +10,9 @@
 
 <body>
 	<?php
-	$client = new MongoDBClient('mongodb+srv://ankit7890:Qwerty7890@cluster0.yj0oa.mongodb.net/chefaura?retryWrites=true&w=majority');
-	$db = $client->chefaura;
-	echo" db connect";
+	//$client = new MongoDBClient('mongodb+srv://ankit7890:Qwerty7890@cluster0.yj0oa.mongodb.net/chefaura?retryWrites=true&w=majority');
+	//$db = $client->chefaura;
+	//echo" db connect";
 	?>
 <div id="top">
 	<div id="header">
