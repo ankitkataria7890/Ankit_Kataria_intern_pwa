@@ -10,10 +10,12 @@
 
 <body>
 	<?php
-	echo"hello";
+	/*
+        echo"hello";
 	$client = new MongoDB\Client('mongodb+srv://ankit7890:Qwerty7890@cluster0.yj0oa.mongodb.net/sample_mflix?retryWrites=true&w=majority');
 	$db = $client->chefaura;
 	echo" db connect";
+*/
 	?>
 	
 	
